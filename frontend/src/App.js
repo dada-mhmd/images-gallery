@@ -1,8 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './Components/Header'
+import Search from './Components/Search'
+
 const App = () => {
   return (
-    <div>
-      <h1>hello</h1>
-    </div>
+    <>
+      <Header title='Images Gallery' />
+      <Search />
+    </>
   )
 }
 export default App
